@@ -1,0 +1,22 @@
+.privacy-policy{
+    margin: 50px;
+    padding: 30px;
+    border: none;
+    background-color: rgb(238, 114, 93);
+    border-radius: 30px;
+}
+
+.privacy-policy h1{
+    font-size: 80px;
+    color: white;
+}
+
+.text-side{
+    margin-left: 20px;
+}
+
+@media (max-width:750px) {
+    .privacy-policy h1{
+        font-size: 40px;
+    }
+}

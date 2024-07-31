@@ -1,0 +1,101 @@
+.about-us{
+    display: flex;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(238, 114, 93);
+    border-radius: 30px;
+}
+.text-about-us{
+    /* background-color: green; */
+    padding: 20px;
+} 
+.text-about-us h3{
+    margin-top: 20px;
+}
+.text{
+    /* margin-left: 30px;
+    margin-top: 30px; */
+    margin: 30px 30px;
+}
+.logo-about-us{
+    /* background-color: brown; */
+    width: 100%;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    text-align: center;
+}
+.logo-about-us h1{
+    margin-top: 250px;
+    padding-right: 15px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:990px) {
+    .about-us{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-about-us h1{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .about-us{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    width: 50%;
+    margin-top: 20px;
+}
+.h3 .text{
+    font-family: sans-serif;
+}
+.text{
+    margin: 20px;
+}
+.text-about-us{
+    background-color: brown;
+    width: 400px;
+}
+
+.logo-about-us{
+    background-color: aqua;
+    justify-content: center;
+    padding: 250px 100px;
+}
+
+
+.h1{
+   width: 500px;
+   height: 100px;
+   margin-top: 250px;
+   padding: 10px;
+   margin: 250px 100px;
+} */
