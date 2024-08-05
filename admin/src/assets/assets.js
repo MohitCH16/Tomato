@@ -16,4 +16,4 @@ export const assets ={
     mohit_profile
 }
 
-export const url = 'http://localhost:4000'
+export const url = 'https://tomato-backend-tot2.onrender.com'
